@@ -1,0 +1,234 @@
+body {
+  background-color: #ececec;
+  margin: auto;
+}
+
+#NavBar {
+  background-color: #625c5c;
+  height: 70px;
+  width: 98.5%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid#FFFFFF;
+}
+
+.left {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left img {
+  height: 40px;
+  width: 30px;
+  margin: 5px;
+}
+
+.right img {
+  height: 42px;
+  width: 42px;
+  border-radius: 50%;
+}
+
+h2 {
+  font-display: white;
+  display: inline;
+  float: left;
+}
+
+#cointainer {
+  padding: 10px;
+  width: auto;
+  float: left;
+}
+
+.main {
+  height: calc((100% - 70px) - 20px);
+}
+#sidebar {
+  background-color: #625c5c;
+  height: 100%;
+  width: 115px;
+  float: left;
+}
+
+.main h1 {
+  color: black;
+  text-decoration: underline;
+  float: left;
+  overflow: hidden;
+}
+.green-bg {
+  background-color: #0ace82;
+}
+.purple-bg {
+  background-color: #a259ff;
+}
+
+.red-bg {
+  background-color: #ea7757;
+}
+
+.cyan-bg {
+  background-color: #57c6f1;
+}
+
+.title {
+  height: 120px;
+  width: 257.5px;
+  float: left;
+  margin-left: 20px;
+  text-align: center;
+  font-display: white;
+}
+
+#boxes {
+  float: left;
+  margin-bottom: 15px;
+}
+
+#boxes > div:last-child {
+  margin-right: 20px;
+}
+
+#sidebar > p {
+  padding: 5px;
+}
+
+.circle {
+  float: left;
+  height: 250px;
+  width: 250px;
+  margin-left: 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.purple-bg {
+  background-color: #a359ff;
+}
+
+.innercircle1 {
+  background-color: #0ace82;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.cyan-bg {
+  background-color: #5dc1eb;
+}
+.innercircle2 {
+  background-color: #ececec;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.red-bg {
+  background-color: #f64d1d;
+}
+
+.innercircle3 {
+  background-color: #ff715a;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.innercircle4 {
+  background-color: #a259ff;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chart {
+  margin-left: 60px;
+  float: left;
+  height: 250px;
+  width: 250px;
+}
+
+.Bar1 {
+  height: 100px;
+  width: 10px;
+  background-color: #0bce81;
+  position: absolute;
+  bottom: 0;
+}
+
+.Bar2 {
+  height: 50px;
+  width: 10px;
+  background-color: #f24f1e;
+  bottom: 0;
+  position: absolute;
+  margin-left: 30px;
+}
+
+.Bar3 {
+  height: 60px;
+  width: 10px;
+  background-color: #a259fe;
+  bottom: 0;
+  position: absolute;
+  margin-left: 60px;
+}
+
+.Bar4 {
+  height: 45px;
+  width: 10px;
+  background-color: #19bcfd;
+  bottom: 0;
+  position: absolute;
+  margin-left: 90px;
+}
+
+.Bar5 {
+  height: 75px;
+  width: 10px;
+  background-color: #6c6969;
+  bottom: 0;
+  position: absolute;
+  margin-left: 120px;
+}
+
+.Bar6 {
+  height: 45px;
+  width: 10px;
+  background-color: #ff7061;
+  bottom: 0;
+  position: absolute;
+  margin-left: 150px;
+}
+
+.bartop {
+  display: flex;
+  position: relative;
+  width: 250px;
+  height: 240px;
+}
+
+.barbottom {
+  width: 220px;
+  height: 10px;
+  background-color: #605c5b;
+}
