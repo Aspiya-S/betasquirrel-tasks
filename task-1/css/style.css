@@ -1,0 +1,59 @@
+body {
+  background-color: black;
+  margin: auto;
+}
+
+#navbar {
+  background-color: #543561;
+  display: block;
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+#main-container {
+  background-color: #d1d8e8;
+  height: 200px;
+  border: 1px solid greenyellow;
+  margin-bottom: 15px;
+}
+
+.boxes {
+  background-color: #d1d8e8;
+  height: 250px;
+  border: 1px solid greenyellow;
+  width: 32%;
+  float: left;
+}
+.first {
+  margin-right: 15px;
+}
+.second {
+  margin-right: 15px;
+}
+div {
+  padding: 2.5px;
+}
+#main-container h1 {
+  text-decoration: underline;
+}
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.left img {
+  height: 70px;
+}
+.left h2 {
+  display: inline;
+  color: white;
+}
+.right a {
+  color: white;
+}
+.left + div {
+  padding: 10px;
+}
