@@ -2,21 +2,18 @@ body {
   background-color: black;
   margin: auto;
 }
-
 #navbar {
   background-color: #543561;
   display: block;
   height: 100px;
   margin-bottom: 15px;
 }
-
 #main-container {
   background-color: #d1d8e8;
   height: 200px;
   border: 1px solid greenyellow;
   margin-bottom: 15px;
 }
-
 .boxes {
   background-color: #d1d8e8;
   height: 250px;
@@ -39,11 +36,9 @@ div {
 .left {
   float: left;
 }
-
 .right {
   float: right;
 }
-
 .left img {
   height: 70px;
 }

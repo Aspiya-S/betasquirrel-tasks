@@ -9,7 +9,6 @@ body {
   display: flex;
   justify-content: space-between;
 }
-
 .boxes {
   background-color: gray;
   height: 200px;
@@ -35,39 +34,31 @@ body {
 .first {
   margin-left: 50px;
 }
-
 .first {
   margin-right: 132px;
 }
-
 #navbar img {
   height: 90px;
 }
-
 #navbar h2 {
   display: inline;
   float: right;
 }
-
 div {
   padding: 10px;
 }
-
 .left {
   float: left;
 }
-
 .right {
   float: right;
   display: flex;
   align-self: center;
 }
-
 .right a {
   color: white;
   padding: 0 15px;
 }
-
 .third {
   background-color: blueviolet;
   display: white;
