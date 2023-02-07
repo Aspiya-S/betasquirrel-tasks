@@ -2,7 +2,7 @@
 
 Assignments from betasquirrel
 
-##task 6
+## task 6
 
 | Requirements                       | Output                             |
 | ---------------------------------- | ---------------------------------- |
@@ -10,7 +10,7 @@ Assignments from betasquirrel
 | ![task-2](Image/task2-output.jpeg) | ![task-2](Image/task2-result.JPG)  |
 | ![task-4](Image/task4-output.jpeg) | ![task-3](Image/task-4-result.JPG) |
 
-##task-3
+## task-3
 
 - [Home](https://www.w3schools.com/html/default.asp)
 - [Introduction](https://www.w3schools.com/html/html_intro.asp)
