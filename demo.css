@@ -25,17 +25,14 @@ body {
   align-self: center;
   text-align: center;
 }
-
 .task {
   margin-top: 15%;
   text-align: center;
   padding-left: 15px;
 }
-
 .task a:hover {
   background-color: red;
 }
-
 .task a {
   margin: 15px;
 }
