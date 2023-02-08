@@ -2,7 +2,7 @@
 
 Assignments from betasquirrel
 
-- [Demo](https://aspiya-s.github.io/betasquirrel-tasks/)
+- [Demo](https://aspiya-s.github.io/betasquirrel-tasks/s)
 
 ## task 6
 
