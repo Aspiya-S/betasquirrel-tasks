@@ -37,7 +37,7 @@ Assignments from betasquirrel
 - [Classes](https://www.w3schools.com/html/html_classes.asp)
 - [Id](https://www.w3schools.com/html/html_id.asp)
 
-## Linus Commands
+## Linux Commands
 
 - `cd`- Change current directory. Ex: `cd Desktop`, `cd..`
 - `ls`- List contents of a directory, Ex: `ls -a` lists hidden as well
