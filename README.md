@@ -51,3 +51,5 @@ Assignments from betasquirrel
 3. `git add` Add your file changes to git. Ex: `git add .`,`git add README.md`
 4. `git commit` Commit changes to git. Ex `git commit -m "Initial commit"`
 5. `git push` Push your local commits to remote repo. Ex: `git push origin main`
+
+[def]: https://aspiya-s.github.io/betasquirrel-tasks/
