@@ -2,7 +2,7 @@
 
 Assignments from betasquirrel
 
-- [Demo](C:\Users\User\Desktop\Learning_Coding\betasquirrel-tasks\index.html)
+- [Demo](index.html)
 
 ## task 6
 
