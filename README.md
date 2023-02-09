@@ -43,6 +43,9 @@ Assignments from betasquirrel
 - `ls`- List contents of a directory, Ex: `ls -a` lists hidden as well
 - `pwd`- Display cureent working path
 - `çat` - Display contents of a fil. Ex:`cat README.md`
+- `rm` - The rm command is used to removea file Ex:`rm <file name>`
+- `clear` -To clear the screen `Ex: clear`
+- `mkdir` - To create new directory EX:`mkdir projects`
 
 ## GIT comments
 
@@ -51,4 +54,6 @@ Assignments from betasquirrel
 3. `git add` Add your file changes to git. Ex: `git add .`,`git add README.md`
 4. `git commit` Commit changes to git. Ex `git commit -m "Initial commit"`
 5. `git push` Push your local commits to remote repo. Ex: `git push origin main`
+6. `git pull` This command fetches and mergeschanges on the remote server to your working directory
+7. `git reset` This command undoes all the commits after the specified commit and preserves the changes locally. Ex:`git reset [commit]`
    [def]: https://aspiya-s.github.io/betasquirrel-tasks/
