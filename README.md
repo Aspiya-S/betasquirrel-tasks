@@ -56,4 +56,3 @@ Assignments from betasquirrel
 5. `git push` Push your local commits to remote repo. Ex: `git push origin main`
 6. `git pull` This command fetches and mergeschanges on the remote server to your working directory
 7. `git reset` This command undoes all the commits after the specified commit and preserves the changes locally. Ex:`git reset [commit]`
-   [def]: https://aspiya-s.github.io/betasquirrel-tasks/
