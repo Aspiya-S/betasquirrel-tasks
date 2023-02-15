@@ -4,7 +4,7 @@ body {
 }
 #NavBar {
   background-color: #625c5c;
-  height: 70px;
+  height: 98.5%;
   width: 98.5%;
   padding: 10px;
   display: flex;
@@ -34,24 +34,19 @@ h2 {
   float: left;
 }
 #cointainer {
-  padding: 10px;
   width: auto;
   float: left;
 }
-.main {
-  height: calc((100% - 70px) - 20px);
-}
 #sidebar {
   background-color: #625c5c;
-  height: 100%;
   width: 115px;
   float: left;
 }
 .main h1 {
   color: black;
   text-decoration: underline;
+  padding: 15px;
   float: left;
-  overflow: hidden;
 }
 .green-bg {
   background-color: #0ace82;
@@ -67,7 +62,7 @@ h2 {
 }
 .title {
   height: 120px;
-  width: 257.5px;
+  width: 293px;
   float: left;
   margin-left: 20px;
   text-align: center;
@@ -85,9 +80,11 @@ h2 {
 }
 .circle {
   float: left;
-  height: 250px;
-  width: 250px;
-  margin-left: 10px;
+  height: 200px;
+  width: 200px;
+  padding: 15px;
+  margin-left: 22px;
+  margin-right: 65px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -107,6 +104,7 @@ h2 {
 }
 .cyan-bg {
   background-color: #5dc1eb;
+  margin-left: 10px;
 }
 .innercircle2 {
   background-color: #ececec;
@@ -122,8 +120,8 @@ h2 {
 }
 .innercircle3 {
   background-color: #ff715a;
-  height: 200px;
-  width: 200px;
+  height: 180px;
+  width: 180px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -143,16 +141,17 @@ h2 {
   float: left;
   height: 250px;
   width: 250px;
+  margin-left: 17px;
 }
 .Bar1 {
-  height: 100px;
+  height: 180px;
   width: 10px;
   background-color: #0bce81;
   position: absolute;
   bottom: 0;
 }
 .Bar2 {
-  height: 50px;
+  height: 120px;
   width: 10px;
   background-color: #f24f1e;
   bottom: 0;
@@ -160,7 +159,7 @@ h2 {
   margin-left: 30px;
 }
 .Bar3 {
-  height: 60px;
+  height: 95px;
   width: 10px;
   background-color: #a259fe;
   bottom: 0;
@@ -176,7 +175,7 @@ h2 {
   margin-left: 90px;
 }
 .Bar5 {
-  height: 75px;
+  height: 70px;
   width: 10px;
   background-color: #6c6969;
   bottom: 0;
@@ -184,7 +183,7 @@ h2 {
   margin-left: 120px;
 }
 .Bar6 {
-  height: 45px;
+  height: 75px;
   width: 10px;
   background-color: #ff7061;
   bottom: 0;
@@ -195,9 +194,10 @@ h2 {
   display: flex;
   position: relative;
   width: 250px;
-  height: 240px;
+  height: 200px;
 }
 .barbottom {
+  margin-bottom: 20px;
   width: 220px;
   height: 10px;
   background-color: #605c5b;
