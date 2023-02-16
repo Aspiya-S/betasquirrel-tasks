@@ -11,28 +11,24 @@ body {
 .boxes {
   background-color: #8ade84;
   height: 200px;
-  width: 345px;
-  margin-left: 410px;
-  margin-right: 10px;
-  margin-top: 40px;
+  width: 300px;
+  margin-top: 25px;
   margin-bottom: 10px;
   padding: 10px;
   float: left;
-  align-self: center;
-  display: left;
 }
 #main-cointainer {
   background-color: #d2d9e9;
   height: 260px;
+  width: 98%;
   margin-bottom: 15px;
   margin-right: 10px;
   margin-left: 10px;
+  justify-content: space-between;
 }
+
 .first {
-  margin-left: 50px;
-}
-.first {
-  margin-right: 132px;
+  margin-right: 10px;
 }
 #navbar img {
   height: 70px;
@@ -60,8 +56,15 @@ div {
   background-color: #dadada;
   display: white;
   height: 200px;
-  width: 95%;
+  width: 96%;
   margin-left: 10px;
   border: #509243;
   border: solid 15px #b94143;
+}
+@media only screen and (max-width: 650px) {
+  .right {
+    display: none;
+  }
+  #main-cointainer {
+  }
 }
