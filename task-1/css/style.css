@@ -11,14 +11,16 @@ body {
 #main-container {
   background-color: #d1d8e8;
   height: 200px;
+  padding: 15px;
   border: 1px solid greenyellow;
   margin-bottom: 15px;
 }
 .boxes {
   background-color: #d1d8e8;
   height: 250px;
+  padding: 15px;
   border: 1px solid greenyellow;
-  width: 32%;
+  width: 29%;
   float: left;
 }
 .first {
@@ -53,7 +55,7 @@ div {
   padding: 10px;
 }
 @media only screen and (max-width: 650px) {
-  #maincointainer {
+  .right {
     display: none;
   }
   .boxes {
