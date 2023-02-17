@@ -58,8 +58,15 @@ div {
   .right {
     display: none;
   }
+  #navbar {
+    width: 110%;
+  }
+  #main-container {
+    width: 100%;
+    overflow: hidden;
+  }
   .boxes {
     width: 100%;
     margin-bottom: 15px;
   }
-} ;
+}

@@ -13,11 +13,12 @@ body {
   background-color: #8ade84;
   height: 180px;
   width: 350px;
-  margin-left: 60px;
+  margin-left: 30px;
   margin-top: 20px;
   margin-bottom: 10px;
-  padding: 10px;
+  padding: 05px;
   float: left;
+  overflow: hidden;
 }
 #main-cointainer {
   background-color: #d2d9e9;
@@ -67,7 +68,16 @@ div {
   .right {
     display: none;
   }
+  #navbar {
+    width: 110%;
+  }
+  .boxes {
+    width: 80%;
+  }
   #main-cointainer {
-    width: 100%;
+    width: 110%;
+  }
+  .third {
+    width: 110%;
   }
 }
