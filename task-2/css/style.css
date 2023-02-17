@@ -66,13 +66,13 @@ body {
     display: none;
   }
   #navbar {
-    width: 115%;
+    width: 100%;
   }
   .boxes {
     width: 80%;
   }
   #main-cointainer {
-    width: 110%;
+    width: 100%;
   }
   .third {
     width: 100%;

@@ -18,9 +18,9 @@ body {
 .boxes {
   background-color: #d1d8e8;
   height: 250px;
-  padding: 15px;
+  padding: 10px;
   border: 1px solid greenyellow;
-  width: 29%;
+  width: 30.5%;
   float: left;
 }
 .first {
