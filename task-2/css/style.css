@@ -13,7 +13,7 @@ body {
   background-color: #8ade84;
   height: 180px;
   width: 350px;
-  margin-left: 30px;
+  margin-left: 50px;
   margin-top: 20px;
   margin-bottom: 10px;
   padding: 05px;
@@ -22,12 +22,22 @@ body {
 }
 #main-cointainer {
   background-color: #d2d9e9;
-  height: 470px;
-  width: 98%;
+  height: 350px;
+  width: 100%;
+  padding: 40px;
+  margin-right: 50px;
+  margin-left: 40px;
   margin-bottom: 15px;
-  margin-right: 10px;
-  margin-left: 10px;
+  display: flex;
+  align-self: center;
+  overflow: hidden;
   justify-content: space-between;
+}
+.task {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
 }
 
 .first {
@@ -55,10 +65,8 @@ body {
 .third {
   background-color: #dadada;
   display: white;
-  height: 200px;
-  width: 96%;
-  margin-left: 10px;
-  border: #509243;
+  height: 290px;
+  width: 100%;
   border: solid 15px #b94143;
 }
 @media only screen and (max-width: 650px) {
@@ -69,12 +77,18 @@ body {
     width: 100%;
   }
   .boxes {
-    width: 80%;
+    width: 100%;
+    margin-left: 10px;
   }
   #main-cointainer {
     width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   .third {
-    width: 100%;
+    width: 110%;
+    margin-right: 40px;
   }
 }

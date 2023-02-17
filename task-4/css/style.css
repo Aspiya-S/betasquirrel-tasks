@@ -6,7 +6,7 @@ body {
 #NavBar {
   background-color: #625c5c;
   height: 80px;
-  width: 100%;
+  width: 100vw;
   padding: 10px;
   display: flex;
   align-items: center;
@@ -40,8 +40,8 @@ h2 {
 }
 #sidebar {
   background-color: #625c5c;
-  height: 100%;
-  width: 115px;
+  height: 100vh;
+  width: 145px;
   float: left;
   padding: 15px;
 }
@@ -71,22 +71,20 @@ h2 {
 }
 .title {
   height: 120px;
-  width: calc((100%) / 4);
+  width: calc((100vw) / 4);
   margin-left: 20px;
   text-align: center;
   font-display: white;
 }
 #right-cointainer {
   height: 100%;
-  width: 90%;
-}
-
-/**#left-cointainer {
   width: 100%;
-  float: left;
-}**/
+}
+.task {
+  display: flex;
+}
 #boxes {
-  width: 80%;
+  width: 100%;
   float: left;
   display: flex;
   margin-bottom: 15px;
@@ -101,12 +99,12 @@ h2 {
   padding: 5px;
 }
 .head {
-  margin-left: 165px;
+  margin-left: 20px;
   margin-bottom: 3px;
   width: auto;
 }
 #graph {
-  width: 80%;
+  width: 100%;
   padding-top: 40px;
   padding-left: 15px;
   padding-right: 40px;
@@ -120,6 +118,7 @@ h2 {
   height: 200px;
   width: 200px;
   border-radius: 50%;
+  margin-left: 10px;
   display: flex;
   justify-content: center;
 }
@@ -181,7 +180,7 @@ h2 {
   justify-content: center;
 }
 .chart {
-  margin-left: 60px;
+  margin-left: 30px;
   float: left;
   height: 250px;
   width: 250px;
