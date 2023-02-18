@@ -11,27 +11,23 @@ body {
 #main-container {
   background-color: #d1d8e8;
   height: 200px;
-  padding: 15px;
-  border: 1px solid greenyellow;
+  width: 100%;
   margin-bottom: 15px;
 }
 .boxes {
   background-color: #d1d8e8;
   height: 250px;
   padding: 10px;
-  border: 1px solid greenyellow;
-  width: 30.5%;
+  width: 31.4%;
   float: left;
 }
 .first {
-  margin-right: 15px;
+  margin-right: 10px;
 }
 .second {
-  margin-right: 15px;
+  margin-right: 10px;
 }
-div {
-  padding: 2.5px;
-}
+
 #main-container h1 {
   text-decoration: underline;
 }
@@ -59,7 +55,7 @@ div {
     display: none;
   }
   #navbar {
-    width: 110%;
+    width: 100%;
   }
   #main-container {
     width: 100%;
@@ -68,5 +64,8 @@ div {
   .boxes {
     width: 100%;
     margin-bottom: 15px;
+  }
+  .third {
+    margin-left: 10px;
   }
 }
