@@ -110,22 +110,24 @@ h2 {
   padding-right: 40px;
   display: flex;
   float: left;
+  justify-content: center;
   align-items: center;
   justify-content: space-between;
 }
 .circle-1 {
   background-color: #a359ff;
-  height: 200px;
-  width: 200px;
+  height: 320px;
+  width: 320px;
   border-radius: 50%;
-  margin-left: 60px;
+  margin-left: 05px;
+  margin-right: 30px;
   display: flex;
   justify-content: center;
 }
 .innercircle1 {
   background-color: #0ace82;
-  height: 120px;
-  width: 120px;
+  height: 200px;
+  width: 200px;
   border-radius: 50%;
   align-self: center;
   align-items: center;
@@ -134,17 +136,18 @@ h2 {
 }
 .circle-2 {
   background-color: #5dc1eb;
-  margin-left: 95px;
-  height: 200px;
-  width: 200px;
+  margin-left: 10px;
+  margin-right: 30px;
+  height: 320px;
+  width: 320px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
 }
 .innercircle2 {
   background-color: #ececec;
-  height: 180px;
-  width: 180px;
+  height: 290px;
+  width: 290px;
   border-radius: 50%;
   align-items: center;
   align-self: center;
@@ -153,18 +156,20 @@ h2 {
 }
 .circle-3 {
   background-color: #f64d1d;
-  height: 200px;
-  width: 200px;
-  margin-left: 80px;
+  height: 320px;
+  width: 320px;
+  margin-left: 10px;
+  margin-right: 60px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
 }
 .innercircle3 {
   background-color: #ff715a;
-  height: 160px;
-  width: 160px;
+  height: 290px;
+  width: 290px;
   border-radius: 50%;
+
   display: flex;
   align-content: center;
   align-self: center;
@@ -172,9 +177,9 @@ h2 {
 }
 .innercircle4 {
   background-color: #a259ff;
-  height: 100px;
-  width: 100px;
-  border-radius: 50px;
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
   display: flex;
   align-items: center;
   align-self: center;
@@ -185,8 +190,9 @@ h2 {
   float: left;
   height: 250px;
   width: 250px;
-  margin-right: 170px;
+  margin-left: 40px;
 }
+
 .Bar1 {
   height: 180px;
   width: 10px;

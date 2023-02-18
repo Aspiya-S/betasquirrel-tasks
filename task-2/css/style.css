@@ -1,5 +1,6 @@
 body {
   background-color: #311b18;
+  margin: auto;
 }
 #navbar {
   background-color: #533261;
@@ -22,7 +23,7 @@ body {
 }
 #main-cointainer {
   background-color: #d2d9e9;
-  height: 350px;
+  height: 300px;
   width: 100%;
   padding: 40px;
   margin-right: 50px;
@@ -88,7 +89,6 @@ body {
     justify-content: center;
   }
   .third {
-    width: 110%;
-    margin-right: 40px;
+    width: 100%;
   }
 }
