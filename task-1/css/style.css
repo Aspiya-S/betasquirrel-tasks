@@ -76,3 +76,12 @@ body {
     float: left;
   }
 }
+@media only screen and (max-width: 900px) and (min-width: 651px) {
+  .first {
+    width: 100%;
+  }
+  .second,
+  .third {
+    width: calc((100% / 2) - 19px);
+  }
+}
