@@ -4,7 +4,7 @@ Assignments from betasquirrel
 
 - [Demo](https://aspiya-s.github.io/betasquirrel-tasks/)
 
-- [Task-5](https://github.com/Aspiya-S/betasquirrel-tasks)
+- [Task-5](https://aspiya-s.github.io/betasquirrel-tasks/)
 
 ## task 6
 
