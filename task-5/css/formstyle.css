@@ -120,14 +120,23 @@ body {
   height: auto;
   float: left;
 }
-.section-6 button {
-  border: none;
+button {
   float: right;
-  padding: 25px;
-  margin-left: 10px;
 }
-Input[type="“reset”"] {
-  background-color: #ff7261;
+input[type="reset"],
+input[type="submit"] {
+  height: 35px;
+  width: 120px;
+  border-radius: 20px;
+}
+
+input[type="reset"] {
+  background-color: rgb(255, 144, 97);
+  margin-right: 20px;
+}
+input[type="submit"] {
+  background-color: rgb(59, 185, 137);
+  margin-right: 20px;
 }
 .address {
   margin-top: 10px;
