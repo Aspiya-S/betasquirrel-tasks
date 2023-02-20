@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/formstyle.css" />
+  </head>
+  <body>
+    <div id="navbar">
+      <div class="left">
+        <img src="image/logo.png" alt="logo image" />
+        <h1>One School</h1>
+      </div>
+      <div class="right">
+        <img src="image/image (1).jpg" alt="logo image" />
+      </div>
+    </div>
+    <div id="sidebar">
+      <p>Students</p>
+      <p>Staff</p>
+      <p>Exams</p>
+    </div>
+    <div class="h3">
+      <p><u>STUDENT REGISTRATION</u></p>
+    </div>
+    <div class="tableboxes">
+      <form>
+        <div class="section-1">
+          <div class="section-1 left">
+            <label> First Name <span style="color: red">*</span> :</label>
+            <input type="text" placeholder="Enter your first name" required />
+          </div>
+          <div class="section-1 right">
+            <label> Last Name <span style="color: red">*</span>:</label>
+            <input type="text" placeholder="Enter your last name" required />
+          </div>
+        </div>
+        <div class="section-2">
+          <div class="section-2 left">
+            <label> Mobile<span style="color: red">*</span> :</label>
+            <input type="tel" placeholder="Enter your mobile number" required />
+          </div>
+          <div>
+            <label> Email id <span style="color: red">*</span>:</label>
+            <input type="email" placeholder="Enter your email" required />
+          </div>
+        </div>
+        <div class="section -3">
+          <div class="section-3 left">
+            <label for="degree"
+              >Branch <span style="color: red">*</span>:
+              <select>
+                <option value>Arts</option>
+                <option value>Engineering</option>
+                <option value>Medical</option>
+              </select>
+            </label>
+            <div class="section-3 right">
+              <label>Do you need Hostel Facility</label>
+              <label for="">
+                <input type="checkbox" name="Hostel" value="" />
+                Yes
+              </label>
+              <label for="">
+                <input type="checkbox" name="Hostel" value="" />
+                No
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="skills">
+          <label>Choose Additional Subjects</label><br />
+          <div class="skills section-4">
+            <label for="">
+              <input type="checkbox" name="Skills" value="" />
+              Cyber Security
+            </label>
+            <label for="">
+              <input type="checkbox" name="Skills" value="" />
+              Artifical Intelligence
+            </label>
+            <label for="">
+              <input type="checkbox" name="Skills" value="" />
+              Blockchain
+            </label>
+            <label for="">
+              <input type="checkbox" name="Skills" value="" />
+              IoT
+            </label>
+            <label for="">
+              <input type="checkbox" name="Skills" value="" />
+              Robitcs
+            </label>
+          </div>
+        </div>
+        <div class="section-5">
+          <label for="address">
+            Permanent Address <span style="color: red">*</span></label
+          >
+          <br />
+          <textarea
+            name="address"
+            id="fe"
+            cols="40"
+            rows="10"
+            placeholder="Enter your full address"
+          ></textarea>
+        </div>
+        <div class="section-6">
+          <button type="reset">Clear</button>
+          <button type="save">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
