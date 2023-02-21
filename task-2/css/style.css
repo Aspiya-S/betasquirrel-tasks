@@ -1,12 +1,12 @@
 body {
   background-color: #311b18;
-  margin: auto;
+  margin: 0;
 }
 #navbar {
   background-color: #533261;
   height: 80px;
+  width: 100vw;
   margin-bottom: 15px;
-  width: 100%;
   display: flex;
   justify-content: space-between;
 }
@@ -38,11 +38,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 30px;
-}
-
-.first {
-  margin-right: 650px;
 }
 #navbar img {
   height: 70px;
@@ -75,20 +70,19 @@ body {
     display: none;
   }
   #navbar {
-    width: 100%;
+    width: auto;
   }
   .boxes {
     width: 100%;
     margin-left: 10px;
   }
   #main-cointainer {
-    width: 100%;
-    padding: 10px;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
   .third {
-    width: 100%;
+    width: 100vw;
   }
 }

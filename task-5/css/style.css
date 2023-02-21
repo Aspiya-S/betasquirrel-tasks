@@ -17,7 +17,7 @@ body {
 .left h1 {
   display: inline;
   color: #555555;
-  padding-left: 4px;
+  padding-left: 10px;
 }
 .left {
   float: left;
@@ -47,13 +47,14 @@ body {
 }
 #headbar {
   height: 90px;
-  width: 90%;
+  width: 100%;
+  justify-self: center;
   align-items: center;
   justify-content: space-between;
 }
 .h2 {
   padding-top: 30px;
-  padding-left: 30px;
+  padding-left: 20px;
   margin-bottom: 10px;
   display: flex;
   justify-content: space-between;
@@ -64,20 +65,19 @@ button {
   align-items: center;
   background-color: #3db889;
   border: none;
-  padding: 10px;
+  padding: 15px;
 }
 .h3 {
   padding-right: 40px;
   float: right;
 }
-.tableboxes {
-  width: 100%;
-  margin-left: 90px;
-  padding-left: 90px;
+#main-box {
+  padding: 15px;
+  width: calc(100vw - 200px);
+  float: left;
 }
 table {
   width: 100%;
-  height: 20vw;
 }
 table,
 td,
@@ -85,36 +85,23 @@ th,
 tr {
   border: 2px solid #e4e4e4;
   border-collapse: collapse;
-  text-align: center;
+  text-align: left;
+  padding: 10px;
 }
 @media only screen and (max-width: 650px) {
   .sidebar {
     display: none;
   }
-  #navbar {
-    width: auto;
-  }
-  .tableboxes {
-    width: auto;
-    padding-left: 90px;
-    margin-right: 90px;
-  }
-  #headbar {
-    width: auto;
+  #main-box {
+    width: calc(100vw - 30px);
   }
 }
 
-@media only screen and (min-width: 650px) and (max-width: 1920px) {
-  #sidebar {
-    width: auto;
+@media only screen and (min-width: 651px) and (max-width: 900px) {
+  .sidebar {
+    display: none;
   }
-  #navbar {
-    width: auto;
-  }
-  .tableboxes {
-    width: auto;
-  }
-  #headbar {
-    width: auto;
+  #main-box {
+    width: calc(100vw - 30px);
   }
 }
