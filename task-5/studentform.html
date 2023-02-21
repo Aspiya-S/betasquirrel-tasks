@@ -28,7 +28,7 @@
     <div class="tableboxes">
       <form>
         <div class="section-1">
-          <div class="section-1 left">
+          <div class="section-1-left">
             <div class="student-name">
               <label> First Name <span style="color: red">*</span> : </label>
             </div>
@@ -36,46 +36,64 @@
               <input type="text" placeholder="Enter your first name" required />
             </div>
           </div>
-          <div class="section-1 right">
+          <div class="section-1-right">
             <label> Last Name <span style="color: red">*</span>: </label>
-            <br />
-            <input type="text" placeholder="Enter your last name" required />
+            <div class="lastname-box">
+              <input type="text" placeholder="Enter your last name" required />
+            </div>
           </div>
         </div>
         <div class="section-2">
-          <div class="section-2 left">
-            <label> Mobile<span style="color: red">*</span>: </label>
-            <br /><br />
-            <input type="tel" placeholder="Enter your mobile number" required />
+          <div class="section-2-left">
+            <div class="mobile-box">
+              <label> Mobile<span style="color: red">*</span>: </label>
+              <div class="number-box">
+                <input
+                  type="tel"
+                  placeholder="Enter your mobile number"
+                  required
+                />
+              </div>
+            </div>
           </div>
-          <div>
-            <label> Email id <span style="color: red">*</span>:</label>
-            <br /><br />
-            <input type="email" placeholder="Enter your email" required />
+          <div class="section-2-right">
+            <div class="email-id">
+              <label> Email id <span style="color: red">*</span>:</label>
+              <div class="emailid-box">
+                <input type="email" placeholder="Enter your email" required />
+              </div>
+            </div>
           </div>
         </div>
         <div class="section -3">
-          <div class="section-3 left">
+          <div class="section-3-left">
             <label for="degree"
-              >Branch <span style="color: red">*</span>:
-              <br />
-              <select>
-                <option value>Arts</option>
-                <option value>Engineering</option>
-                <option value>Medical</option>
+              >Branch <span style="color: red">*</span>:</label
+            >
+            <div class="branch-box">
+              <select name="Branch" id="Branch">
+                <option value="select" disabled selected>
+                  select your branch like
+                </option>
+                <option value="Engineering">Engineering</option>
+                <option value="Medical">Medical</option>
+                <option value="Arts">Arts</option>
               </select>
-            </label>
-            <div class="section-3 right">
+            </div>
+          </div>
+          <div class="section-3-right">
+            <div class="hostel-check">
               <label>Do you need Hostel Facility </label>
-              <br />
-              <label for="">
-                <input type="checkbox" name="Hostel" value="" />
-                Yes
-              </label>
-              <label for="">
-                <input type="checkbox" name="Hostel" value="" />
-                No
-              </label>
+              <div class="hostelbox">
+                <label for="">
+                  <input type="checkbox" name="Hostel" value="" />
+                  Yes
+                </label>
+                <label for="">
+                  <input type="checkbox" name="Hostel" value="" />
+                  No
+                </label>
+              </div>
             </div>
           </div>
         </div>
@@ -108,18 +126,19 @@
           <label for="address">
             Permanent Address <span style="color: red">*</span></label
           >
-          <br />
-          <textarea
-            name="address"
-            id="fe"
-            cols="40"
-            rows="10"
-            placeholder="Enter your full address"
-          ></textarea>
+          <div class="address-box">
+            <textarea
+              name="address"
+              id="fe"
+              cols="40"
+              rows="10"
+              placeholder="Enter your full address"
+            ></textarea>
+          </div>
         </div>
         <div class="section-6">
-          <button type="reset">Clear</button>
-          <button type="save">Submit</button>
+          <input type="reset" value="Reset" />
+          <input type="submit" value="Submit" />
         </div>
       </form>
     </div>

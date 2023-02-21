@@ -53,9 +53,6 @@ body {
   padding-left: 30px;
   float: left;
 }
-.tableboxes div {
-  margin-top: 0px;
-}
 .boxes {
   float: right;
 }
@@ -69,14 +66,20 @@ body {
   width: 10px;
   padding-top: 10px;
 }
-/**.section-1 .left {
-  width: 150px;
-  float: left;
-}**/
-
 .section-1 .right {
   width: auto;
   float: right;
+}
+.lastname-box,
+.number-box,
+.emailid-box,
+.branch-box,
+.address-box {
+  padding-top: 10px;
+}
+
+.hostel-box {
+  padding: 10px;
 }
 .section-2 {
   width: 100%;
@@ -101,16 +104,18 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.section-3 .left {
+
+.section-3-left {
   width: auto;
   float: left;
 }
 
-.section-3 .right {
+.section-3-right {
   width: auto;
   float: right;
 }
 .skills {
+  margin-top: 15px;
   width: 100%;
   height: auto;
   float: left;
@@ -126,22 +131,27 @@ body {
   height: auto;
   float: left;
 }
-button {
+.section-6 {
   float: right;
+  text-align: end;
 }
 input[type="reset"],
 input[type="submit"] {
   height: 35px;
-  width: 120px;
+  width: 130px;
   border-radius: 20px;
+  border: 0px;
+  font-weight: 300;
+  text-decoration: none;
 }
 input[type="reset"] {
-  background-color: rgb(255, 144, 97);
+  background-color: rgb(255, 114, 97);
   margin-right: 20px;
+  color: #fff;
 }
 input[type="submit"] {
   background-color: rgb(59, 185, 137);
-  margin-right: 20px;
+  color: #fff;
 }
 .address {
   margin-top: 10px;
