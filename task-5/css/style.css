@@ -94,6 +94,7 @@ tr {
   }
   #main-box {
     width: calc(100vw - 30px);
+    overflow: auto;
   }
 }
 

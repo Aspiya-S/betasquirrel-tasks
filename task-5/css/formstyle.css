@@ -69,10 +69,10 @@ body {
   width: 10px;
   padding-top: 10px;
 }
-.section-1 .left {
+/**.section-1 .left {
   width: 150px;
   float: left;
-}
+}**/
 
 .section-1 .right {
   width: auto;

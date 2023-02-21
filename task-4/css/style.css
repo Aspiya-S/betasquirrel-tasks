@@ -252,3 +252,9 @@ h2 {
   height: 10px;
   background-color: #605c5b;
 }
+
+@media only screen and (max-width: 650px) {
+  #sidebar {
+    display: none;
+  }
+}
