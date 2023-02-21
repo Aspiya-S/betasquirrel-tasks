@@ -14,24 +14,19 @@ body {
   background-color: #8ade84;
   height: 180px;
   width: 350px;
-  margin-left: 50px;
-  margin-top: 20px;
-  margin-bottom: 10px;
   padding: 10px;
+  margin-top: 10px;
   float: left;
-  overflow: hidden;
+  overflow: auto;
 }
 #main-cointainer {
   background-color: #d2d9e9;
   height: 300px;
   width: 100vw;
-  padding: 40px;
-  margin-right: 50px;
-  margin-left: 40px;
   margin-bottom: 15px;
   display: flex;
   align-self: center;
-  overflow: hidden;
+  overflow: auto;
   justify-content: space-between;
 }
 .task {
@@ -68,8 +63,8 @@ body {
   background-color: #dadada;
   display: white;
   height: 290px;
-  width: 100vw;
-  border: solid 15px #b94143;
+  width: calc((100vw) - 10px);
+  border: solid 10px red;
 }
 @media only screen and (max-width: 650px) {
   .right {
@@ -88,11 +83,11 @@ body {
     justify-content: center;
   }
   .third {
-    width: 100vw;
+    width: calc(100vw - 10px);
   }
 }
 
-@media only screen and (max-width: 900px) and (min-width: 650px) {
+@media only screen and (max-width: 900px) and (min-width: 651px) {
   .right {
     display: none;
   }
@@ -109,6 +104,6 @@ body {
     justify-content: center;
   }
   .third {
-    width: 100vw;
+    width: calc(100vw - 10px);
   }
 }
