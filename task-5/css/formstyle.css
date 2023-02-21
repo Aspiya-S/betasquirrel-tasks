@@ -74,12 +74,9 @@ body {
 .number-box,
 .emailid-box,
 .branch-box,
-.address-box {
-  padding-top: 10px;
-}
-
+.address-box,
 .hostel-box {
-  padding: 10px;
+  padding-top: 10px;
 }
 .section-2 {
   width: 100%;
@@ -98,9 +95,9 @@ body {
   float: right;
 }
 .section-3 {
-  width: 100%;
-  height: 80px;
+  width: auto;
   display: flex;
+  height: 80px;
   justify-content: space-between;
   align-items: center;
 }
@@ -125,12 +122,17 @@ body {
   width: 100%;
   height: auto;
 }
+.skills-option {
+  padding-left: 10px;
+}
+
 .section-5 {
   width: 100%;
   padding-top: 20px;
   height: auto;
   float: left;
 }
+
 .section-6 {
   float: right;
   text-align: end;
