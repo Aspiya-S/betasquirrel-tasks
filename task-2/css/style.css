@@ -17,14 +17,14 @@ body {
   margin-left: 50px;
   margin-top: 20px;
   margin-bottom: 10px;
-  padding: 05px;
+  padding: 10px;
   float: left;
   overflow: hidden;
 }
 #main-cointainer {
   background-color: #d2d9e9;
   height: 300px;
-  width: 100%;
+  width: 100vw;
   padding: 40px;
   margin-right: 50px;
   margin-left: 40px;
@@ -39,15 +39,21 @@ body {
   flex-direction: column;
   justify-content: center;
 }
-#navbar img {
-  height: 70px;
+.left img {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  float: left;
+  margin-top: 10px;
 }
-#navbar h2 {
+.h2 {
   display: inline;
   float: right;
+  padding-left: 15px;
 }
 .left {
   float: left;
+  display: flex;
 }
 .right {
   float: right;
@@ -62,10 +68,31 @@ body {
   background-color: #dadada;
   display: white;
   height: 290px;
-  width: 100%;
+  width: 100vw;
   border: solid 15px #b94143;
 }
 @media only screen and (max-width: 650px) {
+  .right {
+    display: none;
+  }
+  #navbar {
+    width: 100%;
+  }
+  .boxes {
+    width: 100%;
+  }
+  #main-cointainer {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .third {
+    width: 100vw;
+  }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 650px) {
   .right {
     display: none;
   }
@@ -74,7 +101,6 @@ body {
   }
   .boxes {
     width: 100%;
-    margin-left: 10px;
   }
   #main-cointainer {
     width: 100vw;
