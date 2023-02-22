@@ -83,12 +83,10 @@ body {
   justify-content: space-between;
   margin-bottom: 10px;
 }
-
 .section-3-left {
   width: auto;
   float: left;
 }
-
 .section-3-right {
   width: 38%;
   float: right;
@@ -100,12 +98,10 @@ body {
   float: left;
   margin-bottom: 10px;
 }
-
 .skills-option {
   float: left;
   width: auto;
 }
-
 .section-5 {
   width: 100%;
   padding-top: 20px;
@@ -113,7 +109,6 @@ body {
   float: left;
   margin-bottom: 10px;
 }
-
 .section-6 {
   float: right;
   text-align: end;
@@ -135,11 +130,9 @@ select {
   width: 27.4vw;
   height: 40px;
 }
-
 .hostel-check {
   margin-top: 10px;
 }
-
 .hostelbox div {
   float: left;
   display: flex;
@@ -152,7 +145,6 @@ select {
   margin-top: 10px;
   padding-left: 30px;
 }
-
 input[type="reset"],
 input[type="submit"] {
   height: 35px;
@@ -190,7 +182,6 @@ input[type="submit"] {
   .tableboxes {
     flex-direction: column;
   }
-
   #boxcheck {
     display: flex;
     flex-direction: column;
@@ -199,7 +190,8 @@ input[type="submit"] {
   .section-2,
   .section-3,
   .section-4,
-  .section-5 {
+  .section-5,
+  .section-6 {
     justify-content: center;
     flex-direction: column;
     float: left;
