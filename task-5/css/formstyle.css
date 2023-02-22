@@ -46,44 +46,28 @@ body {
   padding-left: 30px;
 }
 .tableboxes {
-  width: 80%;
   height: 100%;
-  padding-left: 20px;
-  margin-top: 10px;
-  padding-left: 30px;
   float: left;
+  width: 75%;
+  padding-left: 30px;
 }
 .boxes {
   float: right;
 }
-
 .section-1 {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  margin-bottom: 10px;
 }
-.name-box {
-  width: 10px;
-  padding-top: 10px;
-}
+
 .section-1 .right {
   width: auto;
   float: right;
 }
-.lastname-box,
-.number-box,
-.emailid-box,
-.branch-box,
-.address-box,
-.hostel-box {
-  padding-top: 10px;
-}
 .section-2 {
-  width: 100%;
-  height: 80px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  margin-bottom: 10px;
 }
 .section-2 .left {
   width: auto;
@@ -95,11 +79,9 @@ body {
   float: right;
 }
 .section-3 {
-  width: auto;
   display: flex;
-  height: 80px;
   justify-content: space-between;
-  align-items: center;
+  margin-bottom: 10px;
 }
 
 .section-3-left {
@@ -108,7 +90,7 @@ body {
 }
 
 .section-3-right {
-  width: auto;
+  width: 35%;
   float: right;
 }
 .skills {
@@ -116,14 +98,12 @@ body {
   width: 100%;
   height: auto;
   float: left;
+  margin-bottom: 10px;
 }
-.section-4 label {
-  padding: 20px;
-  width: 100%;
-  height: auto;
-}
+
 .skills-option {
-  padding-left: 10px;
+  float: left;
+  width: 80%;
 }
 
 .section-5 {
@@ -131,12 +111,48 @@ body {
   padding-top: 20px;
   height: auto;
   float: left;
+  margin-bottom: 10px;
 }
 
 .section-6 {
   float: right;
   text-align: end;
+  margin-bottom: 10px;
 }
+input[type="text"] {
+  width: 27.4vw;
+  height: 40px;
+}
+input[type="tel"] {
+  width: 27.4vw;
+  height: 40px;
+}
+input[type="email"] {
+  width: 27.4vw;
+  height: 40px;
+}
+select {
+  width: 27.4vw;
+  height: 40px;
+}
+
+.hostel-check {
+  margin-top: 10px;
+}
+
+.hostelbox div {
+  float: left;
+  display: flex;
+  padding-right: 30px;
+  margin-top: 10px;
+}
+.skills-option div {
+  float: left;
+  display: flex;
+  margin-top: 10px;
+  padding-left: 30px;
+}
+
 input[type="reset"],
 input[type="submit"] {
   height: 35px;
@@ -172,12 +188,25 @@ input[type="submit"] {
     width: 100vw;
   }
   .tableboxes {
-    width: 100vw;
+    flex-direction: column;
   }
-  #headbar {
-    width: auto;
+
+  #boxcheck {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-1,
+  .section-2,
+  .section-3,
+  .section-4,
+  .section-5 {
+    justify-content: center;
+    flex-direction: column;
+    float: left;
+    margin: 0;
   }
 }
+
 @media only screen and (max-width: 1020px) and (min-width: 650px) {
   #sidebar {
     display: none;
@@ -186,7 +215,7 @@ input[type="submit"] {
     width: 100%;
   }
   .tableboxes {
-    width: auto;
+    width: calc(100% - 40px);
   }
   #headbar {
     width: auto;
