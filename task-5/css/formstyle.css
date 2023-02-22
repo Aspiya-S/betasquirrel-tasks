@@ -12,11 +12,12 @@ body {
 .left img {
   float: left;
   height: 50px;
+  display: flex;
 }
 .left h1 {
   display: inline;
   color: #555555;
-  padding-left: 4px;
+  padding-left: 15px;
 }
 .left {
   float: left;
