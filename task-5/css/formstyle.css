@@ -90,7 +90,7 @@ body {
 }
 
 .section-3-right {
-  width: 35%;
+  width: 38%;
   float: right;
 }
 .skills {
@@ -103,7 +103,7 @@ body {
 
 .skills-option {
   float: left;
-  width: 80%;
+  width: auto;
 }
 
 .section-5 {
