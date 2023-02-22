@@ -36,3 +36,8 @@ body {
 .task a {
   margin: 15px;
 }
+@media only screen and (max-width: 650px) {
+  .boxes {
+    width: 50vw;
+  }
+}

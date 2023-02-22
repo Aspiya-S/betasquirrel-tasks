@@ -88,19 +88,15 @@ body {
   float: left;
 }
 .section-3-right {
-  width: 38%;
-  float: right;
+  width: 27.4vw;
 }
-.skills {
-  margin-top: 15px;
-  width: 100%;
-  height: auto;
-  float: left;
-  margin-bottom: 10px;
+.skills-option-4 {
+  margin-top: 10px;
 }
 .skills-option {
   float: left;
   width: auto;
+  display: flex;
 }
 .section-5 {
   width: 100%;
@@ -179,27 +175,50 @@ input[type="submit"] {
   #navbar {
     width: 100vw;
   }
-  .tableboxes {
-    flex-direction: column;
-  }
   #boxcheck {
+    width: 100%;
     display: flex;
     flex-direction: column;
+  }
+  #boxcheck div {
+    padding: 3px;
   }
   .section-1,
   .section-2,
   .section-3,
-  .section-4,
-  .section-5,
   .section-6 {
-    justify-content: center;
     flex-direction: column;
     float: left;
     margin: 0;
   }
+  .skills-option {
+    flex-direction: column;
+  }
+  .section-3-right {
+    width: 45vw;
+  }
+  .section-3 {
+    margin-bottom: 15px;
+  }
+  input[type="text"] {
+    width: 80vw;
+    height: 40px;
+  }
+  input[type="tel"] {
+    width: 80vw;
+    height: 40px;
+  }
+  input[type="email"] {
+    width: 80vw;
+    height: 40px;
+  }
+  select {
+    width: 80vw;
+    height: 40px;
+  }
 }
 
-@media only screen and (max-width: 1020px) and (min-width: 650px) {
+@media only screen and (max-width: 1020px) and (min-width: 651px) {
   #sidebar {
     display: none;
   }
