@@ -60,7 +60,6 @@ body {
   justify-content: space-between;
   margin-bottom: 10px;
 }
-
 .section-1 .right {
   width: auto;
   float: right;
@@ -126,6 +125,8 @@ input[type="email"] {
 select {
   width: 27.4vw;
   height: 40px;
+  border-radius: 0;
+  border-color: #555555;
 }
 .hostel-check {
   margin-top: 10px;
