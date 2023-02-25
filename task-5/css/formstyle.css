@@ -218,6 +218,9 @@ input[type="submit"] {
     width: 80vw;
     height: 40px;
   }
+  .section-6 {
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 1020px) and (min-width: 651px) {
