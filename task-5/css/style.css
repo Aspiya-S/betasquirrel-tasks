@@ -42,9 +42,21 @@ body {
   float: left;
   padding-left: 10px;
 }
-#sidebar p {
-  margin-top: 0px;
+.list-items {
+  display: flex;
+  margin-bottom: 30px;
 }
+.flex {
+  display: flex;
+  align-items: center;
+  text-decoration: #000000;
+}
+.list-items img {
+  height: 45px;
+  width: 45px;
+  align-items: center;
+}
+
 #headbar {
   height: 90px;
   width: 100%;
